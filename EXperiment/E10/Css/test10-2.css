@@ -1,0 +1,56 @@
+body{
+    width: 1200px;
+    height: 600px;
+    margin-left: 180px;
+}
+div{
+    width: 280px;
+}
+.home{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-basis: 130px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top{
+    height: 100px;
+    text-align: center;
+}
+.img1{
+    width: 280px;
+    height: 150px;
+}
+.img2{
+    width: 280px;
+    height: 150px;
+}
+.img3{
+    width: 280px;
+    height: 150px;
+}
+.img4{
+    width: 280px;
+    height: 150px;
+}
+.bot1{
+    height: 100px;
+    color: gray;
+    overflow-y: scroll;
+}
+.bot2{
+    height: 100px;
+    color: gray;
+    overflow-y: scroll;
+}
+.bot3{
+    height: 100px;
+    color: gray;
+    overflow-y: scroll;
+}
+.bot4{
+    height: 100px;
+    color: gray;
+    overflow-y: scroll;
+}

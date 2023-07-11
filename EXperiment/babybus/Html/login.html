@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录宝宝巴士</title>
+</head>
+<style>
+    body {
+        background: url(../Img/background.jpeg);
+        width: 800px;
+        background-size: 100%;
+    }
+
+    .login {
+        position: relative;
+        top: 200px;
+        left: 650px;
+    }
+
+    .username,
+    .password {
+        width: 200px;
+        height: 25px;
+        margin: 10px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 30px;
+        width: 350px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+    .submit {
+        margin-left: 120px;
+        margin-top: 20px;
+        width: 80px;
+        height: 25px;
+        letter-spacing: 5px;
+        font-weight: 600;
+        text-align: center;
+        background-color: transparent;
+        border: 1px #5f5e5f solid;
+        cursor: pointer;
+    }
+
+    .submit:hover {
+        transform: scale(1.1);
+    }
+</style>
+<script language="javascript">
+    function login1() {
+        var name = form.username.value;
+        var pwd = form.password.value;
+        if (name.trim().length == 0 || pwd.trim().length == 0) {
+            alert("用户名或密码不能为空！");
+            return false;
+        }
+        else {
+            alert("登陆成功！");
+        }
+    }
+</script>
+
+<body>
+    <form action="../Html/Home.html" class="login" name="form" onsubmit="return login1()" method="post">
+        <p>登录您的宝宝巴士！</p>
+        <span>用户名：</span><input type="text" name="username" class="username" /><br>
+        <span>密&nbsp&nbsp&nbsp码：</span><input type="password" name="password" class="password" /><br>
+        <input type="submit" name="login" value="登录" class="submit" />
+    </form>
+</body>
+
+</html>

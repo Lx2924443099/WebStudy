@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 740px;
+    width: 700px;
+    margin-left: 400px;
+    border: 2px solid #252525;
+    border-radius: 10px/10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "top top top top top"
+        "ac ac a1 a2 a3"
+        "b1 b2 b3 b4 b5"
+        "c1 c2 c3 c4 c5"
+        "d1 d2 d3 d4 d4"
+        "e1 e1 e2 d4 d4";
+}
+
+.a1,
+.a2,
+.a3,
+.b4,
+.b5,
+.c4,
+.c5,
+.d4 {
+    color: white;
+    background-color: #f79f31;
+    border: 2px solid #f79f31;
+}
+
+.b1,
+.b2,
+.b3,
+.c1,
+.c2,
+.c3,
+.d1,
+.d2,
+.d3,
+.e1,
+.e2 {
+    background-color: #cccccc;
+    border: 2px solid #cccccc;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+    line-height: 70px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px/30px;
+}
+
+p:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.top {
+    margin-top: -1px;
+    margin-left: -1px;
+    line-height: 100px;
+    background-color: #252525;
+    border: 2px solid #252525;
+    border-radius: 10px/10px;
+    text-align: right;
+    font-size: 80px;
+    color: white;
+    grid-area: top;
+}
+
+.ac {
+    background-color: #2e86c0;
+    color: white;
+    grid-area: ac;
+    border: 2px solid #2e86c0;
+}
+
+.a1 {
+    grid-area: a1;
+}
+
+.a2 {
+    grid-area: a2;
+}
+
+.a3 {
+    grid-area: a3;
+}
+
+.b1 {
+    grid-area: b1;
+}
+
+.b2 {
+    grid-area: b2;
+}
+
+.b3 {
+    grid-area: b3;
+}
+
+.b4 {
+    grid-area: b4;
+}
+
+.b5 {
+    grid-area: b5;
+}
+
+.c1 {
+    grid-area: c1;
+}
+
+.c2 {
+    grid-area: c2;
+}
+
+.c3 {
+    grid-area: c3;
+}
+
+.c4 {
+    grid-area: c4;
+}
+
+.c5 {
+    grid-area: c5;
+}
+
+.d1 {
+    grid-area: d1;
+}
+
+.d2 {
+    grid-area: d2;
+    ;
+}
+
+.d3 {
+    grid-area: d3;
+}
+
+.d4 {
+    line-height: 180px;
+    grid-area: d4;
+}
+
+.e1 {
+    grid-area: e1;
+}
+
+.e2 {
+    grid-area: e2;
+}

@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    float: left;
+    font-family: Arial;
+    font-size: 15px;
+    width: 120px;
+}
+p{
+    width: 80px;
+    height: 80px;
+    color: black;
+    line-height: 80px;
+}
+p:hover{
+    background: url(../Img/图片1.png) no-repeat;
+    background-size: 100%;
+}

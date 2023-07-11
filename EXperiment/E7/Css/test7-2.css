@@ -1,0 +1,75 @@
+body{
+    width: 1200px;
+    height: 600px;
+    margin-left: 180px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+    "top top top top"
+    "img1 img2 img3 img4"
+    "mid1 mid2 mid3 mid4"
+    "bot1 bot2 bot3 bot4";
+}
+.top{
+    height: 100px;
+    text-align: center;
+    grid-area: top;
+}
+.img1{
+    width: 280px;
+    height: 150px;
+    grid-area: img1;
+}
+.img2{
+    width: 280px;
+    height: 150px;
+    grid-area: img2;
+}
+.img3{
+    width: 280px;
+    height: 150px;
+    grid-area: img3;
+}
+.img4{
+    width: 280px;
+    height: 150px;
+    grid-area: img4;
+}
+.mid1{
+    grid-area: mid1;
+}
+.mid2{
+    grid-area: mid2;
+}
+.mid3{
+    grid-area: mid3;
+}
+.mid4{
+    grid-area: mid4;
+}
+.bot1{
+    height: 100px;
+    color: gray;
+    overflow-y: scroll;
+    grid-area: bot1;
+}
+.bot2{
+    height: 100px;
+    color: gray;
+    overflow-y: scroll;
+    grid-area: bot2;
+}
+.bot3{
+    height: 100px;
+    color: gray;
+    overflow-y: scroll;
+    grid-area: bot3;
+}
+.bot4{
+    height: 100px;
+    color: gray;
+    overflow-y: scroll;
+    grid-area: bot4;
+}

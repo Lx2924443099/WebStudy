@@ -1,0 +1,8 @@
+.top{
+    position: fixed;
+    top: 650px;
+    right: 20px;
+}
+p{
+    margin: 20px;
+}

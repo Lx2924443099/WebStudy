@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus {
+            outline: none;
+            border: 1px solid #65a0fa;
+        }
+        input{
+            border: 1px black solid;
+            border-radius: 5px/5px;
+        }
+        #submit{
+            background-color: #65a0fa;
+            width: 100px;
+            height: 40px;
+            border: 1px #65a0fa solid;
+            border-radius: 5px/5px;
+        }
+        #area1{
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+    <h1>收货人</h1>
+    <input type="text" name="name" id="name">
+    </p>
+    <p>
+    <h1>手机号码</h1>
+    <input type="text" name="phone" id="phone">
+    </p>
+    <p>
+    <h1>所在地区</h1>
+    <input type="text" name="area" id="area">
+    </p>
+    <p>
+    <h1>详细地址</h1>
+    <input name="comments" id="area1"></input>
+    </p>
+    <p>
+    <h1>标签</h1>
+    <input type="radio">家<input type="radio">公司<input type="radio">学校
+    </p>
+    <p>
+    <h1>设为默认地址
+        <input type="checkbox" name="yes" id="yes">
+    </h1>
+    </p>
+    <input type="button" id="submit" value="提交">
+</body>
+
+</html>

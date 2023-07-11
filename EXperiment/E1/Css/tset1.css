@@ -1,0 +1,39 @@
+body {
+    background-image: url(../Image/back.jpg);
+    background-attachment: fixed;
+    width: 1300px;
+    margin-left: 100px;
+}
+
+.p1 {
+    font-size: 30px;
+    font-family: 黑体;
+    color: white;
+    width: 800px;
+    float: left;
+}
+
+.p2 {
+    font-size: 30px;
+    font-family: 黑体;
+    color: white;
+    width: 800px;
+    float: right;
+}
+
+p::first-letter {
+    font-size: 60px;
+    float: left;
+}
+
+.img1 {
+    margin-top: 40px;
+    float: left;
+    width: 500px;
+}
+
+.img2 {
+    margin-top: 30px;
+    float: right;
+    width: 500px;
+}

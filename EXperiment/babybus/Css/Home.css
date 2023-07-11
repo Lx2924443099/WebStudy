@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+}
+
+.logo {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    animation: mybox 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    border: 0.1px white;
+    border-radius: 50%/50%;
+}
+
+@keyframes mybox {
+    0% {
+        top: 0px;
+        left: 680px;
+        width: 150px;
+        height: 150px;
+    }
+
+    100% {
+        top: 100px;
+        left: 680px;
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+.home {
+    width: 100%;
+    height: 750px;
+    background: url(../Img/background.jpeg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.title {
+    margin-top: 260px;
+    margin-left: 520px;
+}
+
+.search {
+    margin-top: 20px;
+    margin-left: 500px;
+    width: 540px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px #c0c0c0 solid;
+    border-radius: 0.5em;
+}
+
+.scengine {
+    display: inline-block;
+    width: 35px;
+    height: 100%;
+    float: left;
+    background:url(../Img/scbaidu.png) no-repeat center;
+    background-size: 30px 30px;
+    cursor: pointer;
+}
+
+.sengine {
+    display: none;
+    position: absolute;
+    top: 387px;
+    left: 500px;
+    width: 100px;
+    height: 130px;
+    background-color: white;
+}
+
+.scengine:hover .sengine {
+    display: block;
+}
+
+.sebaidu,
+.se360,
+.segeogle,
+.sesouhu {
+    display: block;
+    width: 99%;
+    height: 30px;
+    border: 1px #c0c0c0 solid;
+}
+
+p {
+    margin-top: 5px;
+    margin-right: 20px;
+    float: right;
+}
+
+.searcht,
+.searchb {
+    height: 46px;
+    float: right;
+    border: 0px;
+    border-left: 2px #c0c0c0 solid;
+    background-color: transparent;
+    font-size: 20px;
+    color: #5f5e5f;
+}
+
+.searcht {
+    width: 74%;
+}
+
+.searchb {
+    width: 15%;
+}
+
+.searcht:focus {
+    outline: none;
+    border: 0px;
+    border-left: 2px #c0c0c0 solid;
+}
+
+.searchb:hover {
+    color: #df9fa2;
+    cursor: pointer;
+}
+
+
+.bbox {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin-left: 540px;
+    margin-top: 50px;
+}
+
+.buy,
+.news,
+.av {
+    margin-left: 60px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.bbuy,
+.aav,
+.nnews {
+    position: absolute;
+    display: none;
+    width: 350px;
+    height: 62px;
+}
+
+.bbuy {
+    width: 350px;
+    height: 62px;
+}
+
+.buy:hover .bbuy {
+    display: block;
+}
+
+.buy1,
+.buy2,
+.buy3,
+.buy4,
+.av1,
+.av2,
+.av3,
+.av4,
+.news1,
+.news2,
+.news3,
+.news4 {
+    background-size: 100%;
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 62px;
+    height: 60px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.buy1 {
+    margin-left: 10px;
+    background-image: url(../Img/tb.jpg);
+
+}
+
+.buy2 {
+    background-image: url(../Img/tm.png);
+}
+
+.buy3 {
+    background-image: url(../Img/jd.jpg);
+}
+
+.buy4 {
+    background-image: url(../Img/sn.png);
+}
+
+.aav {
+    margin-left: -120px;
+}
+
+.av:hover .aav {
+    display: block;
+}
+
+.av1 {
+    margin-left: 10px;
+    background-image: url(../Img/txs.png);
+}
+
+.av2 {
+    background-image: url(../Img/iqy.png);
+}
+
+.av3 {
+    background-image: url(../Img/yk.png);
+}
+
+.av4 {
+
+    background-image: url(../Img/wyy.png);
+}
+
+.nnews {
+    margin-left: -250px;
+}
+
+.news:hover .nnews {
+    display: block;
+}
+
+.news1 {
+    margin-left: 10px;
+    background-image: url(../Img/txx.png);
+}
+
+.news2 {
+    background-image: url(../Img/sh.png);
+}
+
+.news3 {
+    background-image: url(../Img/wyx.png);
+}
+
+.news4 {
+    background-image: url(../Img/sina.png);
+}
+
+.av1:hover,
+.av2:hover,
+.av3:hover,
+.av4:hover,
+.buy1:hover,
+.buy2:hover,
+.buy3:hover,
+.buy4:hover,
+.news1:hover,
+.news2:hover,
+.news3:hover,
+.news4:hover {
+    transform: scale(1.1);
+}
+
+.user {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.login,
+.reg {
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+.login:visited,
+.reg:visited {
+    color: #df9fa3;
+}
+
+@media (max-width:912px) {
+    .home {
+        width: 912px;
+    }
+
+    @keyframes mybox {
+        0% {
+            top: 0px;
+            left: 425px;
+            width: 80px;
+            height: 80px;
+        }
+
+        100% {
+            top: 50px;
+            left: 425px;
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    .title {
+        margin-top: 150px;
+        margin-left: 345px;
+        width: 250px;
+        height: 40px;
+    }
+
+    .search {
+        margin-top: 10px;
+        margin-left: 280px;
+        width: 400px;
+        height: 35px;
+    }
+
+    .searcht,
+    .searchb {
+        height: 35px;
+    }
+
+
+    .scengine {
+        width: 35px;
+        height: 100%;
+        background-size: 30px 30px;
+    }
+
+    .sengine {
+        top: 242px;
+        left: 280px;
+        width: 80px;
+        height: 130px;
+    }
+
+    .sebaidu,
+    .se360,
+    .segeogle,
+    .sesouhu {
+        height: 30px;
+    }
+
+    p {
+        margin-right: 10px;
+    }
+
+    .bbox {
+        width: 320px;
+        height: 50px;
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+
+    .buy,
+    .news,
+    .av {
+
+        margin-left: 40px;
+    }
+
+    .bbuy,
+    .aav,
+    .nnews {
+        width: 255px;
+        height: 40px;
+    }
+
+    .aav {
+        margin-left: -105px;
+    }
+
+    .nnews {
+        margin-left: -225px;
+    }
+
+    .buy1,
+    .buy2,
+    .buy3,
+    .buy4,
+    .av1,
+    .av2,
+    .av3,
+    .av4,
+    .news1,
+    .news2,
+    .news3,
+    .news4 {
+        margin-top: 10px;
+        margin-left: 25px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .buy1,
+    .av1,
+    .news1 {
+        margin-left: 20px;
+    }
+
+    .user {
+        top: 20px;
+        right: 50px;
+    }
+
+    .login,
+    .reg {
+        font-size: 10px;
+        margin-right: 20px;
+        text-decoration: none;
+
+    }
+
+    .login:visited,
+    .reg:visited {
+        color: #df9fa3;
+    }
+}
+
+@media (max-width:412px) {
+    .home {
+        width: 412px;
+    }
+
+    @keyframes mybox {
+        0% {
+            top: 0px;
+            left: 155px;
+            width: 80px;
+            height: 80px;
+        }
+
+        100% {
+            top: 150px;
+            left: 155px;
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    .title {
+        margin-top: 250px;
+        margin-left: 80px;
+        width: 250px;
+        height: 40px;
+    }
+
+    .search {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 350px;
+        height: 35px;
+    }
+
+    .searcht,
+    .searchb {
+        height: 35px;
+    }
+
+
+    .scengine {
+        width: 30px;
+        height: 30px;
+        background-size: 30px 30px;
+    }
+
+    .sengine {
+        top: 352px;
+        left: 20px;
+        width: 50px;
+        height: 80px;
+    }
+
+    .sebaidu,
+    .se360,
+    .segeogle,
+    .sesouhu {
+        height: 30px;
+    }
+
+    p {
+        margin-right: 0px;
+        font-size: 12px;
+    }
+
+    .sengine img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .bbox {
+        width: 320px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .buy,
+    .news,
+    .av {
+        margin-left: 40px;
+    }
+
+    .bbuy,
+    .aav,
+    .nnews {
+        width: 400px;
+        height: 40px;
+    }
+
+    .aav {
+        margin-left: -105px;
+    }
+
+    .nnews {
+        margin-left: -225px;
+    }
+
+    .user {
+        top: 20px;
+        right: 15px;
+    }
+
+    .login,
+    .reg {
+        font-size: 10px;
+        margin-right: 5px;
+        text-decoration: none;
+
+    }
+
+    .login:visited,
+    .reg:visited {
+        color: #df9fa3;
+    }
+}

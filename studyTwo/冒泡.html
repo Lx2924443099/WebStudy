@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let arr1 = [14, 15, 2, 8, 65, 74, 1, 4, 19, 3]
+
+        for (let i = 0; i < arr1.length; i++) {
+            for (let j = 0; j < arr1.length; j++) {
+                if (arr1[i] < arr1[j]) {
+                    let temp = arr1[i]
+                    arr1[i] = arr1[j]
+                    arr1[j] = temp
+                }
+            }
+        }
+
+        console.log(arr1);
+    </script>
+</body>
+
+</html>
